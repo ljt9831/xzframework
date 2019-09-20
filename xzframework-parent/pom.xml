@@ -7,6 +7,11 @@
     <groupId>com.xiezhong</groupId>
     <artifactId>xzframework-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>xzframework-common</module>
+        <module>xzframework-service-manager</module>
+    </modules>
+
     <packaging>pom</packaging>
     <description>xiezhong framework parent pom project</description>
 
