@@ -11,16 +11,21 @@
 
     <artifactId>xzframework-service-manager</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>xzservice-customer</module>
     </modules>
+
+    <properties>
+        <spring.boot.version>2.0.6.RELEASE</spring.boot.version>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
-                <version>2.0.6.RELEASE</version>
+                <version>${spring.boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -28,7 +33,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.0.6.RELEASE</version>
+                <version>${spring.boot.version}</version>
             </dependency>
 
             <dependency>
@@ -38,15 +43,21 @@
             </dependency>
 
             <dependency>
-                <groupId>com.xiezhong</groupId>
-                <artifactId>xzframework-common</artifactId>
-                <version>0.0.1.1-SNAPSHOT</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spirng-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spirng-boot-starter-web</artifactId>
-                <version>2.0.6.RELEASE</version>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xiezhong</groupId>
+                <artifactId>xzframework-common</artifactId>
+                <version>0.0.1.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
