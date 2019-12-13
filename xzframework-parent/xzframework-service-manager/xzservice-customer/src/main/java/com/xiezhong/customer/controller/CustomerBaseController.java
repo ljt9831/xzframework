@@ -10,7 +10,6 @@ import javax.annotation.Resource;
 @RestController
 public class CustomerBaseController {
 
-    @Resource(name = "com.xiezhong.customer.service.impl.CustomerBaseService1Impl")
     @Autowired
     private CustomerBaseService customerBaseService;
 
