@@ -1,1 +1,7 @@
-E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-user\src\main\java\UserServiceApplication.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\controller\CustomerBaseController.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\service\impl\CustomerBaseService2Impl.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\infrastructure\ExceptionControllerAdvice.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\infrastructure\LogControllerAspect.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\CustomerServiceApplication.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\service\CustomerBaseService.java
+E:\githubrepo\xzframework\xzframework-parent\xzframework-service-manager\xzservice-customer\src\main\java\com\xiezhong\customer\service\impl\CustomerBaseService1Impl.java

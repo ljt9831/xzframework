@@ -1,0 +1,6 @@
+com\xiezhong\common\enums\exceptioncode\ExceptionCode.class
+com\xiezhong\common\basebeans\BaseQO.class
+com\xiezhong\common\enums\bizcode\BizCode.class
+com\xiezhong\common\enums\exceptioncode\BaseEnum.class
+com\xiezhong\common\basebeans\ResponseDTO.class
+com\xiezhong\common\basebeans\RequestDTO.class

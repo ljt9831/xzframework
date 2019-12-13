@@ -1,1 +1,7 @@
-UserServiceApplication.class
+com\xiezhong\customer\service\impl\CustomerBaseService1Impl.class
+com\xiezhong\customer\service\impl\CustomerBaseService2Impl.class
+com\xiezhong\customer\CustomerServiceApplication.class
+com\xiezhong\customer\controller\CustomerBaseController.class
+com\xiezhong\customer\service\CustomerBaseService.class
+com\xiezhong\customer\infrastructure\LogControllerAspect.class
+com\xiezhong\customer\infrastructure\ExceptionControllerAdvice.class

@@ -6,4 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CustomerBaseServiceImpl implements CustomerBaseService {
 
+    public void test() {
+        System.out.println("CustomerBaseServiceImpl");
+    }
 }
